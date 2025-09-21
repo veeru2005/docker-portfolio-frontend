@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Box, Typography, Container, Card, CardMedia, CardContent, CardActions, Button, Chip, IconButton } from '@mui/material';
 import { Launch as LaunchIcon, GitHub as GitHubIcon } from '@mui/icons-material';
 
-const API_BASE_URL = 'http://13.62.58.39:8083/portfolio_back1';
+const API_BASE_URL = 'http://13.51.174.230:8083/portfolio_back1';
 
 interface Project {
   id: number;
