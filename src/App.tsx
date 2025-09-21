@@ -31,7 +31,7 @@ const theme = createTheme({
 });
 
 // A Lottie JSON animation from the provided file in the public folder.
-import loadingAnimation from "../assets/Loading.json";
+import loadingAnimation from "./assets/Loading.json";
 
 const LoadingFallback = () => (
   <Box
