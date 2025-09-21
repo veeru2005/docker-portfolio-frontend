@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Container, Typography, Card, CardContent, CardMedia, CircularProgress } from '@mui/material';
 
-const API_BASE_URL = 'http://51.20.105.206:8083/portfolio_back1';
+const API_BASE_URL = 'http://51.20.80.25:8083/portfolio_back1';
 
 // --- Interface updated to match the final backend entity ---
 interface Certification {
