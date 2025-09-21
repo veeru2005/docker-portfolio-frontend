@@ -14,14 +14,14 @@ interface Certification {
 }
 
 const EducationCertifications = () => {
-  const defaultEducations = [
+ const defaultEducations = [
     {
       institution: 'Bhashyam Ramasethu Campus',
       degree: 'SSC (10th)',
       year: '2020 - 2021',
       location: 'Guntur, Andhra Pradesh, India',
       description: 'Finished high school with a primary focus on foundational courses in mathematics, sciences and languages',
-      image: '/portfolio_front1/brc.png'
+      image: '/brc.png'
     },
     {
       institution: 'Bhashyam Titanic Campus',
@@ -29,25 +29,15 @@ const EducationCertifications = () => {
       year: '2021 - 2023',
       location: 'Guntur, Andhra Pradesh, India',
       description: 'Focused on Mathematics, Physics, and Chemistry with consistent academic performance.',
-      image: '/portfolio_front1/btc.png'
+      image: '/btc.png'
     },
     {
-      title: 'Blockchain & Real Estate Tokenization Certificate',
-      institution: 'University of California Berkeley',
-      year: 2023,
-      image: '/portfolio_front1/brc.png'
-    },
-    {
-      title: 'Certified Blockchain Associate',
-      institution: 'Crypto Nation School',
-      year: 2023,
-      image: '/portfolio_front1/btc.png'
-    },
-    {
-      title: 'KL University',
-      institution: 'Bachelor of Technology Computer Science and Engineering',
-      year: 2022,
-      image: '/portfolio_front1/klu.png'
+      institution: 'KL University',
+      degree: 'B.Tech in Computer Science & Engineering (Ongoing)',
+      year: '2023 - Present',
+      location: 'Vijayawada, Andhra Pradesh, India',
+      description: 'Currently pursuing B.Tech with interests in software engineering, algorithms, web development and specialising in Cloud Native Software Engineering.',
+      image: '/klu.png'
     }
   ];
 
