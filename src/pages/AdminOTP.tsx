@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import ArrowBack from '@mui/icons-material/ArrowBack';
 import MarkEmailRead from '@mui/icons-material/MarkEmailRead';
 
-const API_BASE_URL = 'http://13.51.174.230:8083/portfolio_back1';
+const API_BASE_URL = 'http://16.171.65.245:8083/portfolio_back1';
 
 const AdminOTP: React.FC = () => {
   const navigate = useNavigate();
