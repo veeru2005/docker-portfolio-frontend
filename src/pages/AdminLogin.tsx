@@ -19,7 +19,7 @@ import Person from '@mui/icons-material/Person';
 import Email from '@mui/icons-material/Email';
 import Lock from '@mui/icons-material/Lock';
 
-const API_BASE_URL = 'http://13.62.51.42:8083/portfolio_back1';
+const API_BASE_URL = 'http://51.20.105.206:8083/portfolio_back1';
 
 const AdminLogin: React.FC = () => {
   const navigate = useNavigate();
