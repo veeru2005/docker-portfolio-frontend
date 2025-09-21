@@ -32,6 +32,7 @@ const About: React.FC = () => {
     { name: 'CapCut', icon: <img src="/portfolio_front1/capcut.svg" alt="CapCut" style={{ width: 48, height: 48 }} /> },
     { name: 'Photopea', icon: <img src="/portfolio_front1/photopea.svg" alt="Photopea" style={{ width: 48, height: 48 }} /> },
     { name: 'Canva', icon: <img src="/portfolio_front1/canva.svg" alt="Canva" style={{ width: 48, height: 48 }} /> },
+  ];
 
   const services = [
     {

@@ -48,6 +48,7 @@ const EducationCertifications = () => {
       institution: 'Bachelor of Technology Computer Science and Engineering',
       year: 2022,
       image: '/portfolio_front1/klu.png'
+    }
   ];
 
   const [educationsState, setEducationsState] = React.useState(() => {
