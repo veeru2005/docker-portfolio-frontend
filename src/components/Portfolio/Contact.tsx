@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
     
     try {
       // We are now ONLY calling your backend to send the email.
-      const API_BASE_URL = 'http://16.171.65.245:8083/portfolio_back1';
+      const API_BASE_URL = 'http://54.82.126.77:8083/portfolio_back1';
 
       const response = await fetch(`${API_BASE_URL}/api/contact/send`, {
         method: "POST",
