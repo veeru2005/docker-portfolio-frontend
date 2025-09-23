@@ -26,7 +26,7 @@ import {
   GitHub as GitHubIcon
 } from '@mui/icons-material';
 
-const API_BASE_URL = 'http://54.82.126.77:8083/portfolio_back1';
+const API_BASE_URL = 'http://13.50.105.225:8083/portfolio_back1';
 
 interface Project {
   id: number;
