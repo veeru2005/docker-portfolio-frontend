@@ -8,7 +8,7 @@ import AdminNavbar from './AdminNavbar';
 
 
 
-const API_BASE_URL = 'http://13.50.105.225:8083/portfolio_back1';
+const API_BASE_URL = 'http://13.51.254.21:8083/portfolio_back1';
 
 const getAuthToken = () => localStorage.getItem('jwtToken') || '';
 
